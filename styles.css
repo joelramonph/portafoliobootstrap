@@ -29,6 +29,18 @@ h1{
   font-size: 2.5rem;
   font-family:'Rubik Dirt', cursive;
 }
+
+#btn-info{
+  font-size: 1.1rem;
+  color: white;
+  margin: 40px;
+  padding: 10px;
+  background-color: #1b1b32;
+  border-radius: 50px;
+  border: none;
+  font-family: Rubik Dirt;
+}
+
 .hero{
 background-color: #f5f6f7;
 min-height: 450px;
@@ -157,9 +169,7 @@ margin: 10px 0;
   padding-top: 60px;
   margin-bottom: 40px;
 }
-.project-update .container-project{
 
-}
 
 .overlay{
   transition: all 0.2s ease;
@@ -210,12 +220,222 @@ font-family: 'Rubik Dirt', cursive;
   color: #584e4e;
 }
 
+/* Articulos */
 
+.articulos{
+  min-height: 500px;
+  padding: 30px;
+}
 
+.articulos .card{
+  width: 80%;
+  max-width: 600px;
+  margin: 20px;
+}
 
+.articulos .card-header{
+  font-weight: bold;
+}
+.article-title{
+  font-family: 'Rubik Dirt', cursive;
+}
 
+/* Testimonios */
 
+.testimonios{
+  padding: 40px 40px 80px 40px;
+}
+.testimonios-title{
+  font-family: 'Rubik Dirt', cursive;
+}
+
+.testimonios .carousel{
+  max-width: 800px;
+}
+
+.carousel-item{
+  height: 500px;
+}
+
+.carousel-item .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.testimonio-imagen{
+  height: 150px;
+  width: 150px;
+  margin: 10px 10px 20px 10px;
+}
+
+.testimonio-texto{
+  max-width: 70%;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Share Tech Mono', monospace;
+
+}
+
+testimonio-info{
+  font-weight: bold;
+  text-align: center;
+}
+
+.testimonio-info .p{
+  margin-bottom: 0;
+}
+
+.cliente-name{
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.cliente-cargo{
+  font-size: 0.9rem;
+  text-align: center;
+  color: #656560;
+}
+
+/* Contacto */
+.contacto .container{
+  max-width: 1100px;
+  min-height: 200px;
+  padding: 20px;
+}
+
+.contacto .rectangulo{
+  margin-top: -5rem;
+  background-color: rgb(13,110,253);
+  border-radius: 10px;
+  box-shadow: 0px 1px 4px 1px white;
+}
+
+.contacto .row{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+contact-description{
+  color: white;
+  font-size: 1.2rem;
+}
+
+.contacto button{
+  color: white;
+ font-weight: bold;
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 1.25em 2em;
+  margin: 10px;
+  border-radius: 100px;
+  transition: all 0.2 ease-in-out;
+
+}
+
+.contacto button:hover{
+  background-color: white;
+  color: black;
+}
+
+.contacto button:hover i{
+  color: black;
+}
+
+.contacto button i{
+  color: white;
+  font-size: 1.3rem;
+  transition:  all 0.2s ease-in-out;
+
+}
+/* Footer */
+
+footer{
+  min-height: 500px;
+}
+.footer-container-social{
+  
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  max-width: 400px;
+}
+
+.footer-logo{
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+}
+
+.footer-texto{
+  font-size: 15px;
+  padding: 20px;
+  margin-bottom: 30px;
+  font-family: 'Quicksand', sans-serif;
+}
+.footer-container-social a{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+
+}
+
+.footer-container-social i{
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.footer-container-social a:hover{
+  background-color: white;
+  border: 2px solid rgb(13,110,253);
+
+}
+
+.footer-container-social a:hover i{
+  color: black;
+
+}
+
+ 
 /* media query */
+
+
+@media screen and (max-width: 400px) {
+  .overlay p{
+    font-size: 18px;
+  }
+
+
+  @media screen and (max-width: 800px) {
+    .testimonio-imagen{
+      height: 120px;
+      width: 120px;
+    }
+
+    .testimonio-texto{
+      font-size: 18px;
+    }
+
+  }
+  .overlay i{
+    font-size: 30px;
+  }
+}
 
 @media screen and (max-width: 767px) {
   .navbar-brand{

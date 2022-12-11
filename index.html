@@ -25,16 +25,12 @@
 
     <title>Joel Parra | Desarrollo Web Frontend</title>
     <!-- Favicon -->
-    <link
-      rel="shortcut icon"
-      href="./images/desarrollador.png"
-      type="image/x-icon"
-    />
+    <link rel="shortcut icon" href="./images/bx-code.svg" type="image/x-icon" />
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -55,11 +51,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbar-toggler">
           <a class="navbar-brand" href="#">
-            <img
-              src="/images/desarrollador.png"
-              alt="logo de la pagina"
-              width="50"
-            />
+            <img src="/images/bx-code.svg" alt="logo de la pagina" width="50" />
           </a>
           <ul
             class="navbar-nav d-flex justify-content-center align-items-center"
@@ -333,7 +325,177 @@
           </div>
         </div>
       </div>
+      <a
+        href="https://wa.link/lqy91i"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button type="button" class="btn btn-info" id="btn-info">
+          Invitame un café
+        </button>
+      </a>
     </section>
+
+    <!-- Articulos -->
+    <section class="articulos justify-content-start">
+      <h2 class="article-title">Artículos</h2>
+      <div class="card">
+        <div class="card-header">Más recietes</div>
+        <ul class="list-group list-group-flush">
+          <a href="https://www.instagram.com/jivitedacademia/">
+            <li class="list-group-item">Jivited Academia</li>
+          </a>
+
+          <a href="https://www.instagram.com/jivitedacademia/">
+            <li class="list-group-item">Jivited Academia</li>
+          </a>
+
+          <a href="https://www.instagram.com/jivitedacademia/">
+            <li class="list-group-item">Jivited Academia</li>
+          </a>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="testimonios seccion-clara">
+      <h2 class="testimonios-title">Testimonios</h2>
+      <h3 class="about-description">Algunos testimonios de mis clientes</h3>
+
+      <!-- Carrusel -->
+
+      <div
+        id="testimonios-carousel"
+        class="carousel carousel-dark slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img
+                src="/images/perfil1.jpg"
+                class="testimonio-imagen rounded-circle"
+                alt="..."
+              />
+              <p class="testimonio-texto">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
+                temporibus sit amet consectetur adipisicing elit.
+              </p>
+              <div class="testimonio-info">
+                <p class="cliente-name">Joel Parra</p>
+                <p class="cliente-cargo">Trainner en Jivited</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img
+                src="/images/perfil1.jpg"
+                class="testimonio-imagen rounded-circle"
+                alt="..."
+              />
+              <p class="testimonio-texto">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
+                temporibus sit amet consectetur adipisicing elit.
+              </p>
+              <div class="testimonio-info">
+                <p class="cliente-name">Joel Parra</p>
+                <p class="cliente-cargo">Trainner en Jivited</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img
+                src="/images/perfil1.jpg"
+                class="testimonio-imagen rounded-circle"
+                alt="..."
+              />
+              <p class="testimonio-texto">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
+                temporibus sit amet consectetur adipisicing elit.
+              </p>
+              <div class="testimonio-info">
+                <p class="cliente-name">Joel Parra</p>
+                <p class="cliente-cargo">Trainner en Jivited</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#testimonios-carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#testimonios-carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto-->
+    <section class="contacto seccion-oscura">
+      <div class="container">
+        <div
+          class="container rectangulo text-center d-flex justify-content-evenly"
+        >
+          <div class="row">
+            <div class="col-12 col-md-4 contact-title">!Hablemos!</div>
+            <div class="col-12 col-md-4 contact-description">
+              Te gustaria trabajar conmigo para desarrollar tu proyecto?
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:joelramonph@gmail.com">
+                <button type="button">
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer
+      class="seccion-oscura d-flex flex-column align-items-center justify-content-center"
+    >
+      <img class="footer-logo" src="images/bx-code.svg" alt="logo" />
+      <p class="footer-texto text-center">
+        Aprendo y enseño <br />Te invito a participar en nuestra incubadora
+      </p>
+      <div
+        class="footer-container-social "
+      >
+        <a href="">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="">
+          <i class="bi bi-whatsapp"></i>
+        </a>
+      </div>
+    </footer>
+
     <!-- Script Bootraps -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
