@@ -57,8 +57,11 @@ text-align: center;
 
 
 .hero-imagen-perfil{
-  width: 200px;
-  height: 200px;
+ 
+  width: 300px;
+  max-width: 300px;
+  
+ 
   border-radius: 50%;
   background-color:#CBCCDC;
  
