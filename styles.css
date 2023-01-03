@@ -172,8 +172,10 @@ margin: 10px 0;
   height: 100%;
   width: 100%;
   padding: 10px;
-  border-radius: 10px;
-  transition: all 0.2 ease;
+  border-radius: 20px;
+  cursor: pointer;
+ 
+  transition: all 0.5s  ease-in;
 }
 
 .container-project{
@@ -182,22 +184,34 @@ margin: 10px 0;
 }
 
 
+
 .overlay{
-  transition: all 0.2s ease;
+  transition: all 0.5s ease-in;
   opacity: 0;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(13, 37,183, 1);
+  padding: 1em;
+  border-radius: 20px;
 }
 
 
 .overlay p{
-  font-size: 25px;
-  font-weight: bold;
+  font-size: 1rem;
+  /* font-weight: bold; */
   margin-bottom: 0;
-  color: #0b25b7;
+  /* color: #0b25b7; */
+  
+  color: white;
+}
+
+.overlay h3{
+  color: white;
 }
 
 .overlay .icons-contenedor{
@@ -213,6 +227,7 @@ margin: 10px 0;
 
 .project-card{
   position: relative;
+  
 }
 .project-card:hover img{
   opacity: 0.9;
